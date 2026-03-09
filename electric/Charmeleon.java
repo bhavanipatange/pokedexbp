@@ -1,0 +1,69 @@
+package electric;
+
+public class Charmeleon{
+
+	private String color = "light blue";
+	private String name = "Charmeleon";
+	private int age = 8;
+	private double weight = 3.5;
+
+
+	//getter and setter for color
+
+	public String getColor(){
+		return color;
+	}
+
+	public void setColor(String color){
+		this.color = color;
+	}
+
+	//getter and setter for Name
+	
+
+	
+	public String getName(){
+		return name;
+	}
+
+	public void setName(String name){
+		this.name =name;
+
+	}
+
+	//getter and setter for Age
+
+	public int getAge(){
+
+		return age;
+	}
+
+	public void setAge(int age){
+		this.age =age;
+	}
+
+	//getter and setter for weight
+
+	public double getWeight(){
+
+		return weight;
+	}
+
+	public void setWeight(double weight){
+		this.weight =weight;
+	}
+
+	//2 unique behaviours
+	public void aggressive(){
+        System.out.println("Charmeleon characterised by its aggressive!");
+    	}
+
+    	public void battle(){
+        System.out.println("Charmeleon is barbaric and merciless nature in battle!");
+    	}
+
+	
+
+}
+
+

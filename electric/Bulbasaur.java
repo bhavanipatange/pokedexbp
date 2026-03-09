@@ -1,16 +1,14 @@
 package electric;
 
-public class Pikachu{
+public class Bulbasaur{
 
-	private String color = "Yellow";
-	private String name = "Pikachu";
-	private int age = 2;
+	private String color = "blue";
+	private String name = "Bulbasaur";
+	private int age = 5;
 	private double weight = 3.5;
 
 
-	public void printColor(){
-		System.out.println(color);
-	}
+	//getter and setter for color
 
 	public String getColor(){
 		return color;
@@ -20,13 +18,9 @@ public class Pikachu{
 		this.color = color;
 	}
 
-	public void run(){
-		System.out.println("Pikachu is running!!!!");
-	}
+	//getter and setter for Name
+	
 
-	public void printName(){
-		System.out.println(name);
-	}
 	
 	public String getName(){
 		return name;
@@ -37,9 +31,7 @@ public class Pikachu{
 
 	}
 
-	public void printAge(){
-		System.out.println(age);
-	}
+	//getter and setter for Age
 
 	public int getAge(){
 
@@ -50,9 +42,7 @@ public class Pikachu{
 		this.age =age;
 	}
 
-	public void printWeight(){
-		System.out.println(weight);
-	}
+	//getter and setter for weight
 
 	public double getWeight(){
 
@@ -62,6 +52,15 @@ public class Pikachu{
 	public void setWeight(double weight){
 		this.weight =weight;
 	}
+
+	//2 unique behaviours
+	public void vineWhip(){
+        System.out.println("Bulbasaur used Vine Whip!");
+    	}
+
+    	public void grow(){
+        System.out.println("Bulbasaur used Grow!");
+    	}
 
 
 	
